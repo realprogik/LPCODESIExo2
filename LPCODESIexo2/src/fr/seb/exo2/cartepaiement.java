@@ -6,8 +6,8 @@ public abstract class cartepaiement {
 		return montant;
 	}
 	
-	public double autorisePaiement(double montant) {
-		return montant;
+	public boolean autorisePaiement(double montant) {
+		return true;
 	}
 	
 	
